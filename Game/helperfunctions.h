@@ -65,7 +65,7 @@ int isvalidsudoku(int **box){
         }
     }
     return 1;
-}
+}       
 int select_random_number(int numvisited[N+1],int no_of_num_left){
     int n=no_of_num_left;
     int num = (rand()%n) +1;
